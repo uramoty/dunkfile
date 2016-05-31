@@ -1,0 +1,17 @@
+
+webブラウザでは機能している状態ながら、コンソールで
+
+lsof -i :8000 すると、
+
+  COMMAND   PID            USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+  Python  45024 uramotokatuhisa    3u  IPv4 0x79bb2bde19070f4f      0t0  TCP *:irdmi (LISTEN)
+
+ps すると、あれ？！SimpleHTTPServer（HTTPServer）が、無い！何故？
+  PID TTY           TIME CMD
+19722 ttys000    0:00.75 -bash
+19723 ttys001    0:00.52 -bash
+19721 ttys002    0:00.26 -bash
+19720 ttys003    0:00.25 -bash
+
+
+参考・参照　http://o-tomox.hatenablog.com/entry/2013/07/29/234359
