@@ -15,3 +15,9 @@ ps すると、あれ？！SimpleHTTPServer（HTTPServer）が、無い！何故
 
 
 参考・参照　http://o-tomox.hatenablog.com/entry/2013/07/29/234359
+
+
+
+結論ではありませんが、
+SimpleHTTPServe の終了は、必ず、「control」+「C」で。
+
