@@ -20,4 +20,7 @@ ps すると、あれ？！SimpleHTTPServer（HTTPServer）が、無い！何故
 
 結論ではありませんが、
 SimpleHTTPServe の終了は、必ず、「control」+「C」で。
+ヘタにタスクをkillすると、グチャグチャ状態になりかねません。
+上記のようにpsしても、SimpleHTTPServerは、ヒットせず、けど、ソケットが塞がってるので、lsof -i などを使っても意味無し。
 
+SimpleHTTPServe の終了は、必ず、「control」+「C」を使えば、混乱なし。
