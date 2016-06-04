@@ -1,1 +1,4 @@
+文字列から不要の一部文字列を除去しようと「tr -d」を使ったところ、
 
+/Users/uraotokatuhisa/Moies/grassCa/upload/  ---> 小文字の「m」が脱落してる！
+/Users/uramotokatuhisa/Movies/grassCam/upload となるべき。
