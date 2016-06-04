@@ -4,7 +4,7 @@
 #!/bin/sh
 
 FN=$1 # 若葉みーちゃん.m4v <--- ファイル。パスではない。
-PW=$2 #"7kana" # mac local
+PW=$2 #"7****" # mac local
 
 function latest_id() {
 	expect -c "
